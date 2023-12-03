@@ -9,11 +9,11 @@ db.connect = async () => {
       client: 'pg',
       version: '8.8',
       connection: {
-        host: "157.230.247.64",
+        host: "",
         port: 15432,
-        user: "rruser",
-        password: "Consolidator@2023",
-        database: "consolidatordb"
+        user: "",
+        password: "",
+        database: ""
       }
     })
     console.log('Connect progress db successfully.')
